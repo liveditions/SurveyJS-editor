@@ -14,7 +14,7 @@
         <li class="nav-item" data-bind="css: {active: koViewType() == 'designer'}">
             <a class="nav-link" href="#" data-bind="click:selectDesignerClick, text: $root.getLocString('ed.designer')"></a>
         </li>
-        <li class="nav-item" data-bind="visible: showJSONEditorTab, css: {active: koViewType() == 'editor'}">
+        <li class="nav-item" id="showJSONEditorTab" data-bind="visible: showJSONEditorTab, css: {active: koViewType() == 'editor'}">
             <a class="nav-link" href="#" data-bind="click:selectEditorClick, text: $root.getLocString('ed.jsonEditor')"></a>
         </li>
         <li class="nav-item" data-bind="visible: showTestSurveyTab, css: {active: koViewType() == 'test'}">

@@ -331,6 +331,8 @@
 .svd_container {
   .svd_commercial_container {
     padding: 1em 0 0 2em;
+    //larissa added line below
+    display: none;
     .svd_commercial_text {
       font-weight: bold;
       text-decoration: none;
@@ -340,4 +342,9 @@
       }
     }
   }
+}
+
+//larissa added this
+#showJSONEditorTab {
+  display: none;
 }
